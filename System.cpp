@@ -37,7 +37,8 @@ int main()
         if(user == 1)
         {
             t.travel_visa++;
-            cout<<"total visa: "<<t.travel_visa<<endl;
+            cout<<"Token issued.\n";
+            cout<<"Token no: TR-"<<t.travel_visa<<endl<<endl;
 
         }
     }
